@@ -1,0 +1,126 @@
+[
+  {
+    "model": "menu.menu",
+    "pk": 1,
+    "fields": {
+      "name": "main_menu"
+    }
+  },
+  {
+    "model": "menu.menu",
+    "pk": 2,
+    "fields": {
+      "name": "footer_menu"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 1,
+    "fields": {
+      "name": "Главная",
+      "menu": 1,
+      "parent": null,
+      "url": "/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 2,
+    "fields": {
+      "name": "Обо мне",
+      "menu": 1,
+      "parent": null,
+      "url": "/about/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 3,
+    "fields": {
+      "name": "Портфолио",
+      "menu": 1,
+      "parent": 2,
+      "url": "/portfolio/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 4,
+    "fields": {
+      "name": "Проект 1",
+      "menu": 1,
+      "parent": 3,
+      "url": "/portfolio/project-1/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 5,
+    "fields": {
+      "name": "Проект 2",
+      "menu": 1,
+      "parent": 3,
+      "url": "",
+      "named_url": "project_2"
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 6,
+    "fields": {
+      "name": "Контакты",
+      "menu": 1,
+      "parent": null,
+      "url": "/contacts/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 7,
+    "fields": {
+      "name": "Политика конфиденциальности",
+      "menu": 2,
+      "parent": null,
+      "url": "/privacy-policy/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 8,
+    "fields": {
+      "name": "Условия использования",
+      "menu": 2,
+      "parent": null,
+      "url": "/terms-of-service/",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 9,
+    "fields": {
+      "name": "Примеры",
+      "menu": 1,
+      "parent": 4,
+      "url": "",
+      "named_url": ""
+    }
+  },
+  {
+    "model": "menu.menuitem",
+    "pk": 10,
+    "fields": {
+      "name": "Фото",
+      "menu": 1,
+      "parent": 4,
+      "url": "",
+      "named_url": ""
+    }
+  }
+]
